@@ -1,0 +1,494 @@
+ .bg-img {
+   background: url('assets/bg.png') rgba(0, 0, 0, 0.3);
+
+ }
+
+ /* navbar */
+ .navbar {
+   font-family: "Merriweather", serif;
+   margin-left: 50px;
+ }
+
+ .navbar-brand {
+   margin-left: 20px;
+ }
+
+
+
+ .navbar a {
+   margin-left: 5px;
+   margin-right: 20px;
+ }
+
+ .nav-item {
+   a {
+     color: brown;
+   }
+
+   a:hover {
+     color: aliceblue;
+   }
+ }
+
+ /* hero-section */
+ .logo {
+   width: 25px;
+   margin-bottom: 100px;
+   margin-top: 90px;
+   right: 340px;
+   margin-right: 100px;
+ }
+
+
+ .text-wit {
+   margin-bottom: 100px;
+   color: rgb(88, 44, 13);
+   font-weight: 400;
+   font-size: 17px;
+   letter-spacing: 2px;
+   max-lines: 1;
+   margin-left: 20px;
+
+ }
+
+ .btn-dark {
+   padding: 10px 20px;
+   font-size: 14px;
+   margin-left: 300px;
+   
+
+ }
+
+ .btn-dark:hover {
+   transform: scale(0.9) rotate(-5deg);
+   transition: all 0.3s ease-in-out;
+
+ }
+
+ .head {
+ margin-left: 110px;
+   font-size: 40px;
+   text-align: center;
+   margin-bottom: 30px;
+ }
+
+
+
+ .text-wit{
+  margin-left: 130px;
+  font-size: 14px;
+  text-align: center;
+  
+ }
+ 
+
+ /* coffe style */
+ .text-center {
+   font-family: "Merriweather", serif;
+   margin-top: 72px;
+   text-align: center;
+   font-size: 50px;
+   margin-left: 3px;
+   ;
+
+
+ }
+
+
+ .text-decs {
+   width: 600px;
+   margin-left: 500px;
+   text-align: center;
+   margin-bottom: 100px;
+   color: chocolate;
+ }
+
+ .card img:hover {
+   transform: scale(0.9);
+   transition: transform 0.2s ease-in-out;
+   border-radius: 30px;
+   color: darkgoldenrod;
+
+ }
+
+ .card-body {
+   width: 100%;
+   font-family: "Merriweather", serif;
+ }
+
+ .btn-outline-dark {
+   margin-left: 150px;
+ }
+
+ /* coffe style */
+ .center-text {
+   font-size: 25px;
+   color: burlywood;
+ }
+
+ .text-get{
+
+  font-family: "Merriweather", serif;
+  color: chocolate;
+  text-align: center;
+
+ }
+
+ .text-great {
+   margin-left: 400px;
+   
+ }
+
+
+ .fa-solid {
+   margin-left: 120px;
+
+   font-size: 48px;
+ }
+
+
+ .text-af {
+   margin-left: 55px;
+ }
+
+
+ .text-pri {
+   margin-left: 33px;
+
+ }
+
+ .card {
+  transition: transform 0.5s ease, box-shadow 0.5s ease; 
+}
+
+
+.card:hover {
+  transform: rotate(10deg); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+  color: gold;
+}
+
+/* Untuk center icon */
+i {
+  font-size: 40px; 
+}
+
+
+
+
+
+ .btn-join {
+   margin-left: 600px;
+   background-color: #6200ea;
+   color: white;
+   padding: 15px 30px;
+   border-radius: 30px;
+   border: none;
+   cursor: pointer;
+   font-size: 18px;
+   font-weight: bold;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   position: relative;
+   overflow: hidden;
+   transition: all 0.4s ease;
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+ }
+
+ .btn-join::before {
+   content: '';
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 300%;
+   height: 300%;
+   background-color: rgba(255, 255, 255, 0.15);
+   transition: all 0.75s ease;
+   transform: translate(-50%, -50%) scale(0);
+   border-radius: 50%;
+ }
+
+ .btn-join:hover {
+   background-color: #3700b3;
+   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+ }
+ .get-text{
+  margin-left: 30px;
+  font-family: "Merriweather", serif;
+  color: darkgoldenrod;
+  margin-top: 100px;
+
+ }
+ .text-amazing{
+  margin-left: 300px;
+
+ }
+
+ /* amazing */
+
+ 
+ .img-cofe{
+  margin-left:659px;
+ }
+ .img-cup{
+  margin-left: 100px;
+  margin-bottom: 800px;
+ }
+ .text-mon{
+  font-family: "Merriweather", serif;
+  color: darkgoldenrod;
+ }
+ /* testimoni */
+ .testimonial-section{
+  padding: 4rem 0;
+
+ }
+
+ .section-title {
+  color: dark;
+  font-size: 34px;
+  font-weight: 600;
+}
+.author-name {
+  color: dark;
+  font-size: 18px;
+  font-weight: 400;
+margin-top: 20px;
+  margin-left: 590px;
+}
+
+.text-ceo{
+  color: black;
+  font-size: 19px;
+  margin-left:550px;
+}
+.text-tesmon{
+  color: burlywood;
+  font-size: 30px;
+}
+
+.hero-icon{
+  margin-left:350px;
+  
+}
+.hero-icon img:hover {
+  transform: scale(1.5);
+  transition: transform 0.2s ease-in-out;
+ 
+}
+
+/* popular */
+.text-rekom{
+  color: chocolate;
+  font-family: "Dancing Script", cursive;
+font-size: 50px;
+margin-left: 500px;
+   
+  }
+
+  /* footer */
+  .footer-section {
+    padding: 80px 0;
+    background: white;
+  }
+  .biji-img{
+    margin-left: 900px;
+  }
+
+  .image-container {
+    position: relative; 
+}
+
+
+.image-container .text-overlay {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white;
+    font-size: 24px; 
+    text-align: center;
+}
+.text-overlay{
+  width: 100%;
+  margin-left: 20px;
+}
+.img-sub{
+  margin-right: 400px;
+ font-size: 100px;
+ 
+}
+
+.text-to{
+  font-family: "Playfair Display", serif;
+  margin-left: 150px; 
+}
+.text-our{
+  font-family: "Playfair Display", serif;
+  margin-left: 120px;
+}
+.footer-logo {
+  font-size: 100px;
+  font-weight: 500;
+  color: #3700b3;
+}
+ 
+/* team */
+
+
+
+
+
+.team{
+  width: 100%;
+  height: 90vh;
+  padding-right: 5000px;
+  margin-top: 90px;
+}
+.team-2{
+  padding-left: 500px;
+  margin-top: 200px;
+}
+.team-3{
+  padding-right: 100px;
+  margin-top: 400px;
+}
+.team h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 55px;
+  margin-bottom: 30px;
+  margin-left: 700px;
+}
+
+.team h1 span{
+  color: darkgoldenrod;
+  margin-left: 15px;
+  font-family: mv boli;
+}
+
+.team h1 span::after{
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: darkgoldenrod;
+  display: block;
+  position: relative;
+  bottom: 15px;
+  text-align: center;
+}
+
+
+ .team-box{
+  width: 95%;
+  margin: 0 auto;
+  display: flex;align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 13%;
+  margin-left: 500px;
+
+
+}
+
+.profile{
+width: 320px;
+height: 320px;
+border-radius: 50%;
+margin: 0 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+transition: 0.4s;
+
+}
+.profile:hover{
+  border-radius: 20px;
+  height: 320px;
+}
+ .profile img{
+  width: 550px;
+  height:250px ;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  transition: 0.4s;
+}
+ .profile:hover img{
+  border-radius: 20px;
+  margin-top: -230px;
+}
+ .profile.info{
+  position: absolute;
+  text-align: center;
+  top: 25%;
+  transition: 0.4s;
+} 
+
+
+ .name{
+  color: darkgoldenrod;
+  margin-top: 50px;
+  margin-left: 15px;
+  font-family: 'Times New Roman', Times, serif;
+
+} 
+ .bio{
+  width: 70%;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  font-size: 11px;
+  margin-left: 10px;
+}
+ .team-icon i{
+  margin: 10px 5px 5px 0;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 14px;
+  margin-right: 25px;
+}
+ .team-icon :hover{
+  color: darkgoldenrod;
+}
+
+
+/* footer*/
+footer{
+  padding: 50px 73px ;
+  background-color: darkgoldenrod;
+}
+.top-footer{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-desc a,p{
+  color: #000;
+  display: flex;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+.bottom-footer{
+display: flex;
+justify-content: space-between;
+
+}
+.medsos-footer i{
+  font-size: 24px;
+  color: var(--primary-color);
+  margin-right: 10px;
+  
+}  
+.top-footer :hover{
+background-color:transparent;
+color: bisque;
+}
+
+
+
+
